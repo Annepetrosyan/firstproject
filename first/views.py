@@ -14,4 +14,8 @@ def introduce(request):
     return HttpResponse("Website is created for You to make your daily 'To do' list")
 
 def datetime_(request):
-    return datetime.now
+    now = datetime.now()
+    return HttpResponse(f"Current date and time = {now}")
+
+
+
