@@ -7,3 +7,6 @@ def home(request):
 
 def welcoming(request):
     return HttpResponse("Welcome dear user!!!")
+
+def introduce(request):
+    return HttpResponse("Website is created for You to make your daily 'To do' list")
